@@ -34,29 +34,91 @@
             
   <div class="section" id="setting-up-environments">
 <h1>Setting up Environments<a class="headerlink" href="#setting-up-environments" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="why-environments-are-necessary">
+<h2>Why Environments are Necessary<a class="headerlink" href="#why-environments-are-necessary" title="Permalink to this headline">¶</a></h2>
+<p>The main purpose of using environments is to create a segregation between the dependencies of different python projects. It eliminates (at least tries to) dependency conflicts since each project has it's own set of dependencies, isolated from one another.</p>
+<p>Suppose you are working on two projects, <code class="docutils literal notranslate"><span class="pre">Project_1</span></code> and <code class="docutils literal notranslate"><span class="pre">Project_2</span></code>, both of which have a dependency on the same library, let's say the awesome <code class="docutils literal notranslate"><span class="pre">Requests</span></code> library. Dependency conflict will arise, if for some reason, the two projects need different versions of <code class="docutils literal notranslate"><span class="pre">Request</span></code> library. For example, maybe <code class="docutils literal notranslate"><span class="pre">Project_1</span></code> needs <code class="docutils literal notranslate"><span class="pre">v1.0.0</span></code>, while <code class="docutils literal notranslate"><span class="pre">Project_2</span></code> requires the newer <code class="docutils literal notranslate"><span class="pre">v2.0.0</span></code>.</p>
+<p>This can easily be avoided by using individual environment for each project where all the dependencies of the corresponding project will reside. There are multiple ways you can create environment. We'll mainly focus on creating python3 based <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">environment</span></code> and native <code class="docutils literal notranslate"><span class="pre">virtual</span> <span class="pre">environment</span></code>.</p>
+</div>
+<div class="section" id="conda-environment">
+<h2>Conda Environment<a class="headerlink" href="#conda-environment" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="installing-anaconda-distribution">
-<h2>Installing Anaconda Distribution<a class="headerlink" href="#installing-anaconda-distribution" title="Permalink to this headline">¶</a></h2>
+<h3>Installing Anaconda Distribution<a class="headerlink" href="#installing-anaconda-distribution" title="Permalink to this headline">¶</a></h3>
+<p>Install anaconda on your machine. I personally prefer miniconda over the full fledged anaconda. The installation guide can be found here:</p>
 <ul class="simple">
-<li><p>Install anaconda on your machine. I personally prefer miniconda over the full fledged anaconda.
-The installation guide can be found here:</p>
-<ul>
 <li><p><a class="reference external" href="https://docs.anaconda.com/anaconda/install/linux/">Linux</a></p></li>
 <li><p><a class="reference external" href="https://docs.anaconda.com/anaconda/install/mac-os/">MacOS</a></p></li>
 </ul>
-</li>
-</ul>
 </div>
-<div class="section" id="setting-up-conda-environment">
-<h2>Setting Up Conda Environment<a class="headerlink" href="#setting-up-conda-environment" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="creating-conda-environment">
+<h3>Creating Conda Environment<a class="headerlink" href="#creating-conda-environment" title="Permalink to this headline">¶</a></h3>
+<p>After installing anaconda, to create a python3 environment with a specific version of python, type the following command. This will create an environemnt named <code class="docutils literal notranslate"><span class="pre">myenv</span></code> with python 3.7:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ conda create -n myenv <span class="nv">python</span><span class="o">=</span><span class="m">3</span>.7
+</pre></div>
 </div>
-<div class="section" id="why-i-prefer-native-virtual-environments-over-conda-environments">
-<h2>Why I Prefer Native Virtual Environments over Conda Environments<a class="headerlink" href="#why-i-prefer-native-virtual-environments-over-conda-environments" title="Permalink to this headline">¶</a></h2>
 </div>
-<div class="section" id="setting-up-virtual-environments">
-<h2>Setting up Virtual Environments<a class="headerlink" href="#setting-up-virtual-environments" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="activating-conda-environment">
+<h3>Activating Conda Environment<a class="headerlink" href="#activating-conda-environment" title="Permalink to this headline">¶</a></h3>
+<p>After creating the conda environment, type the folling command to activate the <code class="docutils literal notranslate"><span class="pre">myenv</span></code> environment:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ conda activate myenv
+</pre></div>
+</div>
+</div>
+<div class="section" id="deactivating-conda-environment">
+<h3>Deactivating Conda Environment<a class="headerlink" href="#deactivating-conda-environment" title="Permalink to this headline">¶</a></h3>
+<p>To deactivate, simply type:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ conda deactivate
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="virtual-environment">
+<h2>Virtual Environment<a class="headerlink" href="#virtual-environment" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="installing-python3-venv">
+<h3>Installing python3-venv<a class="headerlink" href="#installing-python3-venv" title="Permalink to this headline">¶</a></h3>
+<p>To create virtual environment, first you need to install <code class="docutils literal notranslate"><span class="pre">python3-venv</span></code>. Run:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ sudo apt update
+$ sudo apt-get install python3-venv
+</pre></div>
+</div>
+</div>
+<div class="section" id="creating-virtual-environments">
+<h3>Creating Virtual Environments<a class="headerlink" href="#creating-virtual-environments" title="Permalink to this headline">¶</a></h3>
+<p>Create a virtual environment named <code class="docutils literal notranslate"><span class="pre">myenv</span></code> via running:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ python3 -m venv myenv
+</pre></div>
+</div>
+<p>You should see a folder named <code class="docutils literal notranslate"><span class="pre">myenv</span></code> in your current directory. This is the folder where all your project-specific dependencies are going to reside.</p>
+</div>
+<div class="section" id="activating-virtual-environments">
+<h3>Activating Virtual Environments<a class="headerlink" href="#activating-virtual-environments" title="Permalink to this headline">¶</a></h3>
+<p>To activate <code class="docutils literal notranslate"><span class="pre">myenv</span></code>, run:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ <span class="nb">source</span> myenv/bin/activate
+</pre></div>
+</div>
+</div>
+<div class="section" id="deactivating-virtual-environment">
+<h3>Deactivating Virtual Environment<a class="headerlink" href="#deactivating-virtual-environment" title="Permalink to this headline">¶</a></h3>
+<p>To deactivate, simply type:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ deactivate
+</pre></div>
+</div>
+</div>
 </div>
 <div class="section" id="selecting-switching-environments-in-vs-code">
 <h2>Selecting &amp; Switching Environments in VS Code<a class="headerlink" href="#selecting-switching-environments-in-vs-code" title="Permalink to this headline">¶</a></h2>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">cd</span></code> to your project directory and fire up VS Code via running:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ code .
+</pre></div>
+</div>
+<p>This will open up VS Code in your current project folder.</p>
+</li>
+<li><p>Press <code class="docutils literal notranslate"><span class="pre">ctrl+shift+P</span></code> to open VS Code's <code class="docutils literal notranslate"><span class="pre">command</span> <span class="pre">palette</span></code>. You should be seeing something like this:</p>
+  <img src="https://github.com/rednafi/py-vscode/blob/master/ext/venv/command-palette.png" width="650" height="450"></li>
+<li><p>Type <code class="docutils literal notranslate"><span class="pre">interpreter</span></code> in the search box. And select the <code class="docutils literal notranslate"><span class="pre">Python:</span> <span class="pre">Select</span> <span class="pre">Interpreter</span></code> option. You should see a list of all the available (both conda and virtual environments are shown) python environments. You should also see your recently created <code class="docutils literal notranslate"><span class="pre">myenv</span></code> environment there. Toggle and select your environment and you are good to go.</p>
+  <img src="https://github.com/rednafi/py-vscode/blob/master/ext/venv/select-venv.png" width="650" height="450"></li>
+</ul>
 </div>
 </div>
 
@@ -80,10 +142,21 @@ The installation guide can be found here:</p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="installation.html">VS Code installation</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Setting up Environments</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#installing-anaconda-distribution">Installing Anaconda Distribution</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#setting-up-conda-environment">Setting Up Conda Environment</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#why-i-prefer-native-virtual-environments-over-conda-environments">Why I Prefer Native Virtual Environments over Conda Environments</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#setting-up-virtual-environments">Setting up Virtual Environments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#why-environments-are-necessary">Why Environments are Necessary</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#conda-environment">Conda Environment</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#installing-anaconda-distribution">Installing Anaconda Distribution</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#creating-conda-environment">Creating Conda Environment</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#activating-conda-environment">Activating Conda Environment</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#deactivating-conda-environment">Deactivating Conda Environment</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#virtual-environment">Virtual Environment</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#installing-python3-venv">Installing python3-venv</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#creating-virtual-environments">Creating Virtual Environments</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#activating-virtual-environments">Activating Virtual Environments</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#deactivating-virtual-environment">Deactivating Virtual Environment</a></li>
+</ul>
+</li>
 <li class="toctree-l2"><a class="reference internal" href="#selecting-switching-environments-in-vs-code">Selecting &amp; Switching Environments in VS Code</a></li>
 </ul>
 </li>
