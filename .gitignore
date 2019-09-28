@@ -12,6 +12,7 @@ __pycache__/
 *.so
 
 # Distribution / packaging
+.vscode/
 venv/
 .Python
 develop-eggs/
