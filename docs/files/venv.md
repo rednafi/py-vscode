@@ -22,7 +22,7 @@ The installation guide can be found here:
 After installing anaconda, to create a python3 environment with a specific version of python, type the following command. This will create an environemnt with python 3.7:
 
 ```bash
-conda create -n myenv python=3.7
+$ conda create -n myenv python=3.7
 ```
 
 ### Activating Conda Environment
