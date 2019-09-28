@@ -29,9 +29,9 @@ author = 'Redowan Delowar'
 # ones.
 extensions = ['recommonmark'
 ]
-source_parsers = {
-    '.md': 'recommonmark.parser.CommonMarkParser',
-}
+# source_parsers = {
+#     '.md': 'recommonmark.parser.CommonMarkParser',
+# }
 
 source_suffix = ['.rst', '.md']
 
