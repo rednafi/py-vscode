@@ -72,12 +72,11 @@ $ deactivate
     ```
     This will open up VS Code in your current project folder.
 
-
 * Press `ctrl+shift+P` to open VS Code's `command palette`. You should be seeing something like this:
 
-    <img src="https://github.com/rednafi/py-vscode/blob/master/ext/environments/command-palette.png" width="650" height="450">
+    <img src="../../../ext/environments/command-palette.png" width="650" height="450">
 
 
 * Type `interpreter` in the search box. And select the `Python: Select Interpreter` option. You should see a list of all the available (both conda and virtual environments are shown) python environments. You should also see your recently created `myenv` environment there. Toggle and select your environment and you are good to go.
 
-    <img src="https://github.com/rednafi/py-vscode/blob/master/ext/environments/select-venv.png" width="650" height="450">
+    <img src="../../../ext/environments/select-venv.png width="650" height="450">
