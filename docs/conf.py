@@ -17,12 +17,9 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'py-vscode'
+project = 'How to Python with VS Code 🦄'
 copyright = '2019, Redowan Delowar'
 author = 'Redowan Delowar'
-
-# The full version, including alpha/beta/rc tags
-release = '0.0.1'
 
 
 # -- General configuration ---------------------------------------------------
@@ -46,7 +43,7 @@ language = 'python'
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
-exclude_patterns = []
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 
 # -- Options for HTML output -------------------------------------------------
@@ -55,6 +52,16 @@ exclude_patterns = []
 # a list of builtin themes.
 #
 html_theme = 'alabaster'
+html_theme_options = {
+    # 'caption_font_size': '24px',
+    # 'caption_font_family': 'Arial',
+    #'code_font_size': Font size of code block text,
+    # 'code_font_family': Font family of code block text. Defaults to 'Consolas', 'Menlo', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', monospace.
+    'font_family': 'Arial',
+    'font_size': '19px',
+    # 'head_font_family': Font family of headings. Defaults to 'Garamond', 'Georgia', serif.
+}
+
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
