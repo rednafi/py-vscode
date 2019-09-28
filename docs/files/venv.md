@@ -79,4 +79,4 @@ $ deactivate
 
 * Type `interpreter` in the search box. And select the `Python: Select Interpreter` option. You should see a list of all the available (both conda and virtual environments are shown) python environments. You should also see your recently created `myenv` environment there. Toggle and select your environment and you are good to go.
 
-    <img src="../../../ext/environments/select-venv.png width="650" height="450">
+    <img src="../../../ext/environments/select-venv.png" width="650" height="450">
