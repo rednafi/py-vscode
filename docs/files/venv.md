@@ -2,7 +2,7 @@
 
 ## Why Environments are Necessary
 
-The main purpose of using environments is to create a segregation between the dependencies of different python projects. It eliminates (at leas tries to) dependency conflicts since each project has it's own set of dependencies, isolated from one another.
+The main purpose of using environments is to create a segregation between the dependencies of different python projects. It eliminates (at least tries to) dependency conflicts since each project has it's own set of dependencies, isolated from one another.
 
 Suppose you are working on two projects, `Project_1` and `Project_2`, both of which have a dependency on the same library, let's say the awesome `Requests` library. Dependency conflict will arise, if for some reason, the two projects need different versions of `Request` library. For example, maybe `Project_1` needs `v1.0.0`, while `Project_2` requires the newer `v2.0.0`.
 
