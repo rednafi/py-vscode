@@ -1,4 +1,4 @@
-# Setting up Environments
+# Setting up Environments 🌲
 
 ## Why Environments are Necessary
 
@@ -7,6 +7,7 @@ The main purpose of using environments is to create a segregation between the de
 Suppose you are working on two projects, `Project_1` and `Project_2`, both of which have a dependency on the same library, let's say the awesome `Requests` library. Dependency conflict will arise, if for some reason, the two projects need different versions of `Request` library. For example, maybe `Project_1` needs `v1.0.0`, while `Project_2` requires the newer `v2.0.0`.
 
 This can easily be avoided by using individual environment for each project where all the dependencies of the corresponding project will reside. There are multiple ways you can create environment. We'll mainly focus on creating python3 based `conda environment` and native `virtual environment`.
+
 
 ## Conda Environment
 
@@ -64,17 +65,13 @@ To deactivate, simply type:
 $ deactivate
 ```
 
-## Selecting & Switching Environments in VS Code
-* `cd` to your project directory and fire up VS Code via running:
-    ```bash
-    $ code .
-    ```
-    This will open up VS Code in your current project folder.
+## Selecting & Switching Between the Environments in VS Code
 
 * Press `ctrl+shift+P` to open VS Code's `command palette`. You should be seeing something like this:
 
-    <img src="https://github.com/rednafi/py-vscode/blob/master/ext/venv/command-palette.png" width="650" height="450">
+    ![Imgur](https://i.imgur.com/7uYz5Pe.png)
+
 
 * Type `interpreter` in the search box. And select the `Python: Select Interpreter` option. You should see a list of all the available (both conda and virtual environments are shown) python environments. You should also see your recently created `myenv` environment there. Toggle and select your environment and you are good to go.
 
-    <img src="https://github.com/rednafi/py-vscode/blob/master/ext/venv/select-venv.png" width="650" height="450">
+    ![Imgur](https://i.imgur.com/qF0aJYC.png)
