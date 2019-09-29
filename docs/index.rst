@@ -23,7 +23,7 @@ Table of Contents 🚀🚀
     files/venv
     files/code-runner
     files/linting
-    files/keybindings
+    files/keymaps
     files/themes
     files/fonts
     files/extensions
