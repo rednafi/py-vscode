@@ -8,6 +8,7 @@ Suppose you are working on two projects, `Project_1` and `Project_2`, both of wh
 
 This can easily be avoided by using individual environment for each project where all the dependencies of the corresponding project will reside. There are multiple ways you can create environment. We'll mainly focus on creating python3 based `conda environment` and native `virtual environment`.
 
+
 ## Conda Environment
 
 ### Installing Anaconda Distribution
@@ -64,13 +65,7 @@ To deactivate, simply type:
 $ deactivate
 ```
 
-## Selecting & Switching Environments in VS Code
-
-* `cd` to your project directory and fire up VS Code via running:
-    ```bash
-    $ code .
-    ```
-    This will open up VS Code in your current project folder.
+## Selecting & Switching Between the Environments in VS Code
 
 * Press `ctrl+shift+P` to open VS Code's `command palette`. You should be seeing something like this:
 
