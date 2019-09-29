@@ -1,4 +1,4 @@
-# Setting up Environments
+# Setting up Environments 🌲
 
 ## Why Environments are Necessary
 
