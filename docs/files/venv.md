@@ -69,9 +69,23 @@ $ deactivate
 
 * Press `ctrl+shift+P` to open VS Code's `command palette`. You should be seeing something like this:
 
-    ![Imgur](https://i.imgur.com/7uYz5Pe.png)
+    ![Imgur](https://imgur.com/ZVtW5Sw.png)
 
 
 * Type `interpreter` in the search box. And select the `Python: Select Interpreter` option. You should see a list of all the available (both conda and virtual environments are shown) python environments. You should also see your recently created `myenv` environment there. Toggle and select your environment and you are good to go.
 
-    ![Imgur](https://i.imgur.com/qF0aJYC.png)
+    ![Imgur](https://imgur.com/PW47gQS.png)
+
+## Installing Third Party Packages
+To install third party packages/libraries/moduels from `pip` or `conda`,
+* Activate your respective environments
+* Depending on the package manager you want to use, type either:
+
+```
+pip install <package_name>
+```
+or
+```
+conda install <package_name>
+```
+![Imgur](https://imgur.com/Hv5aRxh.png)
