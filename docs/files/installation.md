@@ -2,7 +2,7 @@
 
 ## Installing VS Code
 Installing VS code is easy across all operating systems.
-* Just go to the link [here.](https://code.visualstudio.com/Download) and select the distribution that corresponds to your OS.
+* Just go to the link [here](https://code.visualstudio.com/Download) and select the distribution that corresponds to your OS.
 * Download the file and install
 
 ## Running VS Code
