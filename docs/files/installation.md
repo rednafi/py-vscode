@@ -1,4 +1,4 @@
-## Setting up VS Code on Your Machine
+# Setting up VS Code on Your Machine
 
 ## Installing VS Code
 Installing VS code is easy across all operating systems.
