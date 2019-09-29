@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'How to Python with VS Code 🦄'
+project = 'How to Python in VS Code 🦄'
 copyright = '2019, Redowan Delowar'
 author = 'Redowan Delowar'
 

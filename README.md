@@ -1,6 +1,6 @@
 <div align="center">
 
-# How to Python with VS Code 🦄
+# How to Python in VS Code 🦄
 
 ## An Opinionated Guide
 
