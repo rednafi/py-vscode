@@ -12,7 +12,7 @@ Read the free guide at [py-vscode.readthedocs.io](https://py-vscode.readthedocs.
 **This is an ongoing work. We need contributors. Specially, if are doing python with VS Code in MacOS and want to contribute, please hit me up in `redowan.nafi@gmail.com`.**
 
 ## Contribution Guidelines
-* This guideline has been made with [Sphinx](http://www.sphinx-doc.org/en/master/) and served with [Read The Docs](https://readthedocs.org/).
+* This guideline has been made with [Sphinx](http://www.sphinx-doc.org/en/master/) and served with [Read The Docs](https://readthedocs.org/) ❤️
 
 * The pages are written in `markdown.md` format and are located in `docs/files/` folder. If you want to make an edit (You're awesome 👍)
 

@@ -11,7 +11,7 @@ By default, code runner uses it's own panel for showing the results after you ru
 * Press `ctrl+,` to open up the settings panel
 * On the search bar type `code runner terminal`
 * You should be able to see an option named `Code-runner: Run In Terminal`
-* Check off the option and you are good to go
+* Check off the option and you are good to go 🍰
 
 ![Imgur](https://imgur.com/1a7P3Mc.png)
 
@@ -22,6 +22,6 @@ By default, code runner uses it's own panel for showing the results after you ru
 * Press `ctrl+s` to save the file and give it a name with `.py` extension
 * Write down your python code in the file
 * Press `ctrl+alt+N` to run the code via Code Runner
-* You should see your results in the integrated terminal
+* You should see your results in the integrated terminal 🛬
 
 ![Imgur](https://imgur.com/oD19vWb.png)

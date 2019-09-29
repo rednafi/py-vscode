@@ -81,11 +81,11 @@ To install third party packages/libraries/moduels from `pip` or `conda`,
 * Activate your respective environments
 * Depending on the package manager you want to use, type either:
 
-```
-pip install <package_name>
+```bash
+$ pip install <package_name>
 ```
 or
-```
+```bash
 conda install <package_name>
 ```
 ![Imgur](https://imgur.com/Hv5aRxh.png)
