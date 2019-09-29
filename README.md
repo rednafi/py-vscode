@@ -20,7 +20,7 @@ Read the free guide at [py-vscode.readthedocs.io](py-vscode.readthedocs.io)
     * Make your changes to the files in `docs/files/`
     * And send me a pull request
 
-* If you want to extend/add new pages to the guideline (Whoa, thanks 🔥)
+* If you want to extend/add new pages to the guideline (Whoa, we owe you one 🔥)
     * Clone the repo
     * Make add new `newfile.md` in `docs/files` folder
     * Write your contents in markdown format
