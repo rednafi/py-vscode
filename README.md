@@ -7,7 +7,7 @@
 <img src="/ext/logo.png" width="900" height="600">
 </div>
 
-Read the free guide at [py-vscode.readthedocs.io](py-vscode.readthedocs.io)
+Read the free guide at [py-vscode.readthedocs.io](https://py-vscode.readthedocs.io/en/latest/index.html)
 
 **This is an ongoing work. We need contributors. Specially, if are doing python with VS Code in MacOS and want to contribute, please hit me up in `redowan.nafi@gmail.com`.**
 
