@@ -1,4 +1,5 @@
 # Fonts
+
 Monospace fonts are better optimized for code readability and alignment. Here is a list of awesome coding fonts that I've used in the past. But I always come back to `Fira Code`.
 ## List of Awesome Fonts
 
@@ -16,6 +17,7 @@ Monospace fonts are better optimized for code readability and alignment. Here is
 10. [Source Code Pro](https://github.com/adobe-fonts/source-code-pro)
 
 ### Paid Fonts
+
 1. [Operator Mono](https://www.typography.com/fonts/operator/styles/)
 2. [Dank Mono](https://dank.sh/)
 3. [PragmataPro](https://www.fsd.it/shop/fonts/pragmatapro/)
@@ -23,6 +25,7 @@ Monospace fonts are better optimized for code readability and alignment. Here is
 ## Installing Fonts
 
 ### On Ubuntu
+
 Even on same OS, installation procedure can vary between different fonts. On ubuntu, `open type` fonts generally live in `/usr/share/fonts/opentype/` folder.
 
 * To install `Fira Code` you can simply type:

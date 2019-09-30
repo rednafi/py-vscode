@@ -1,7 +1,9 @@
 # Shortcuts and Keymaps
+
 VS Code is loaded with customization options and shortcuts. Default shortcuts can vary between different operating systems. However, you can always change those according to your likings. You can even adopt other editors' keybindings into VS Code.
 
 ## Changing the Default Keymaps
+
 * Open the command palette by pressing `ctrl+shift+p`.
 * Type `Keyboard shortcuts`.
 * Select `Preferences: Open Keyboard Shortcuts`. This will show you a list of all the keyboard shortcuts available to you.
@@ -11,6 +13,7 @@ VS Code is loaded with customization options and shortcuts. Default shortcuts ca
 ![Imgur](https://imgur.com/pFE90m8.png)
 
 ### Adopting Keymaps from Other Editors
+
 If you are migrating from any other editors and you want to use you previous keymaps, you can do that too.
 * Go to the extension panel.
 * Type `<yourdesirededitor> keymaps`.

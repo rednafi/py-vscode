@@ -1,4 +1,5 @@
 # Themes
+
 Here is a list of some awesome vs code themes that I have encountered over the year. Currently I'm using Cobalt2. You can use [this](https://vscodethemes.com/) website for searching and watching previews of the themes.
 
 ## Awesome Dark Themes
@@ -16,6 +17,7 @@ Here is a list of some awesome vs code themes that I have encountered over the y
 
 
 ## Awesome Light Themes
+
 1. [Winter is Coming](https://github.com/johnpapa/vscode-winteriscoming.git)
 2. [Github Plus](https://github.com/thenikso/github-plus-theme)
 3. [Min Light](https://github.com/misolori/min-theme.git)

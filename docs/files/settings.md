@@ -4,7 +4,9 @@ All your settings and preferences are kept in `settings.json` file. You can dire
 
 
 ## Syncing Your Settings & Extensions
+
 You don't want to set up VS Code from scratch every time you change your machine or do a fresh installation of your OS. In such scenarios, `Settings Sync` comes to rescue. You can set it up once, sync your settings and restore the settings with a few click. This will restore all of your settings, extensions, themes and other preferences. To do so,
+
 * Search and install `Settings Sync` from the extension panel
 * Login with your github credentials
 * Press `ctrl+Shift+P` to open the command prompt and select `Sync: Update/Upload Settings` option to upload your settings and save to a github gist
@@ -14,7 +16,9 @@ You don't want to set up VS Code from scratch every time you change your machine
 ## Shut up & Let Me Replicate Your Settings
 
 If you don't want to go through the hassle of manually installing all these extensions and like my settings. You can replicate my settings with the help of `Settings Sync` too. To do so:
+
 * Go to the settings panel and search `setting sync`
+
 * Find `Sync:Gist` option and replace it with `eec019bccd9c49388eaf9eeaf08c19ec` (This is the gist id of my settings)
 * Then go to command prompt and select `Sync:Download Settings` option
 * It will take some time to restore all the settings and you should see a setup similar to the following screenshots:
@@ -42,5 +46,6 @@ Now you can customize the workspace with your heart's content and sync according
 
 **A few Points to Note:**
 If you have replicated my settings, you have to:
+
 * Replace my github credentials with yours in the `settings.json` file
 * Change and add your own `Flake8` and `Black` path for them to work (See it [here.](https://py-vscode.readthedocs.io/en/latest/files/linting.html#setting-up-linters-in-vs-code))
