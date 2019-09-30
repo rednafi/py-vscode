@@ -23,5 +23,6 @@ By default, code runner uses it's own panel for showing the results after you ru
 * Write down your python code in the file
 * Press `ctrl+alt+N` to run the code via Code Runner
 * You should see your results in the integrated terminal 🛬
+* To run only a selected lines of codes, select the lines you want to run and press `ctrl+alt+N`.
 
 ![Imgur](https://imgur.com/oD19vWb.png)
