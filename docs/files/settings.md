@@ -18,6 +18,7 @@ If you don't want to go through the hassle of manually installing all these exte
 * Find `Sync:Gist` option and replace it with `eec019bccd9c49388eaf9eeaf08c19ec` (This is the gist id of my settings)
 * Then go to command prompt and select `Sync:Download Settings` option
 * It will take some time to restore all the settings and you should see a setup similar to the following screenshots:
+
 ![Imgur](https://i.imgur.com/esscMKH.png)
 ![Imgur](https://i.imgur.com/TtYbXeI.png)
 
@@ -42,4 +43,4 @@ Now you can customize the workspace with your heart's content and sync according
 **A few Points to Note:**
 If you have replicated my settings, you have to:
 * Replace my github credentials with yours in the `settings.json` file
-* Change and add your own `Flake8` and `Black` path for them to work (See it [here.]())
+* Change and add your own `Flake8` and `Black` path for them to work (See it [here.](https://py-vscode.readthedocs.io/en/latest/files/linting.html#setting-up-linters-in-vs-code))
