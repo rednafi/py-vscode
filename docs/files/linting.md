@@ -41,8 +41,8 @@ Doing the above will set `flake8` and `black` to lint and format your script on 
 * Install `flake8` and `black` globally via `pip3 install flake8` and `pip3 install black`
 * On the terminal write `whereis flake8` and `whereis black`
 * You should see their global paths
-    ![Imgur](https://i.imgur.com/ubzM0ou.png)
-
+    ![Imgur](https://i.imgur.com/mCyXVlj.png)
+    
 * Now go to the `settings` and search for `flake8` and paste your `flake8` path in `Python › Linting: Flake8 Path` option
     ![Imgur](https://i.imgur.com/YGceReL.png)
 * Copy `black` path and paste them in `Python › Formatting: Black Path` option
