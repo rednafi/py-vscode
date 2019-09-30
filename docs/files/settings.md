@@ -1,4 +1,4 @@
-# Settings
+# Settings ⚙️
 
 All your settings and preferences are kept in `settings.json` file. You can directly manipulate that file to set your preference locally or globally. Locally the settings file can be found in `.vscode/settings.json` folder in your current project location. To see the global `settings.json`, head over to `$HOME/.config/Code/User/settings.json` and open it in VS Code. If you haven't changed any of the default settings, the file should be empty or almost empty.
 

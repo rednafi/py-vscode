@@ -1,4 +1,4 @@
-# Shortcuts and Keymaps
+# Shortcuts and Keymaps 💻
 
 VS Code is loaded with customization options and shortcuts. Default shortcuts can vary between different operating systems. However, you can always change those according to your likings. You can even adopt other editors' keybindings into VS Code.
 

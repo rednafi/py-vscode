@@ -1,4 +1,4 @@
-# Fonts
+# Fonts 🕹️
 
 Monospace fonts are better optimized for code readability and alignment. Here is a list of awesome coding fonts that I've used in the past. But I always come back to `Fira Code`.
 ## List of Awesome Fonts

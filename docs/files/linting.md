@@ -1,4 +1,4 @@
-# Linting & Formatting
+# Linting & Formatting 🎀
 
 Linters perform static analysis of source codes and check for symantic discrepancies. When you lint your code, it's passed through a basic quality checking tool that provides instructions on how eliminate basic syntactic inconsistencies.
 

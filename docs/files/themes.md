@@ -1,4 +1,4 @@
-# Themes
+# Themes 🐙
 
 Here is a list of some awesome vs code themes that I have encountered over the year. Currently I'm using Cobalt2. You can use [this](https://vscodethemes.com/) website for searching and watching previews of the themes.
 

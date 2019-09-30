@@ -1,4 +1,4 @@
-# Extensions
+# Extensions 🤖
 
 You've already seen extensions like `themes`, `keymaps`, `code runner` etc in action. These modules can take your coding experience beyond what the built ins can offer. Here is an inexhaustive list of a few extensions that can take your python experience more optimized.
 
