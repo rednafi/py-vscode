@@ -18,7 +18,7 @@ If you are migrating from any other editors and you want to use you previous key
 
 ## A Few Important Shortcuts (On Linux)
 
-Although the abundance of shorcuts can be a plus,it can be intimidating for someone who's just starting over. Here's a short list of a few important shortcut that appear more frequently.
+Although the abundance of shorcuts can be a plus,it can be intimidating for someone who's just starting out. Here's a short list of a few important shortcuts that appear more frequently.
 
 * `ctrl+~`          : Opens the integrated terminal
 * `ctrl+N`          : Opens a new empty file
