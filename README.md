@@ -5,6 +5,7 @@
 ## An Opinionated Guide
 
 Read the free guide at [py-vscode.readthedocs.io](https://py-vscode.readthedocs.io/en/latest/index.html)
+
 <img src="/ext/logo.png" width="900" height="600">
 </div>
 
