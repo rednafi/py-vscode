@@ -10,7 +10,7 @@ Read the free guide at [py-vscode.readthedocs.io](https://py-vscode.readthedocs.
 </div>
 
 
-**This is an ongoing work. We need contributors. Specially, if you are doing python in VS Code on MacOS/Windows and want to contribute, please hit me up in `redowan.nafi@gmail.com`.**
+**This is an ongoing work. We need contributors. Specially, if you are doing python in VS Code on MacOS/Windows, please consider contributing.**
 
 ## Contribution Guidelines
 * This guideline has been made with [Sphinx](http://www.sphinx-doc.org/en/master/) and served with [Read The Docs](https://readthedocs.org/) ❤️
