@@ -1,6 +1,6 @@
 # Extensions 🤖
 
-You've already seen extensions like `themes`, `keymaps`, `code runner` etc in action. These modules can take your coding experience beyond what the builtins can offer. Here is an inexhaustive list of a few awesome extensions that can make your python workflow more optimized.
+You've already seen extensions like `themes`, `keymaps`, `code runner` etc in action. These modules can take your coding experience beyond what the builtins can offer. Here is an inexhaustive list of a few awesome extensions that will help you to make your python workflow more optimized.
 
 1. **[Code Runner:](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)** Runs code snippet or code file of many popular languages like C, C++, Java, JavaScript, PHP, **Python**, Perl, Ruby, Go, Lua, Groovy, PowerShell etc.
 
