@@ -31,3 +31,5 @@ You've already seen extensions like `themes`, `keymaps`, `code runner` etc in ac
 15. **[Bookmarks:](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks)** Mark lines and jump to them
 
 16. **[TODO Highlight:](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)** Highlight TODO, FIXME and other annotations within your code.
+
+17. **[autoDocstring](https://marketplace.visualstudio.com/items?itemName=njpwerner.autodocstring)** Generates python docstrings
