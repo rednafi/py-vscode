@@ -2,8 +2,8 @@
 
 VS Code makes python debugging a breeze. The simplest python debugging workflow usually consists of the following steps:
 
-* Setting breakpoints
-* Inspecting variables
+* Setting breakpoints at the points of interest
+* Inspecting the variables
 * Stepping through code
 
 Let's dive in to see how these can be achieved in VS Code.
