@@ -30,3 +30,4 @@ Although the abundance of shorcuts can be a plus,it can be intimidating for some
 * `ctrl+B`          : Toggles between shrinked and extended side panel
 * `F11`             : Full screen mode
 * `ctrl+alt+N`      : Running python code
+* `F5`              : Running python code in debugging mode
