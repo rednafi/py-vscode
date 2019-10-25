@@ -65,5 +65,5 @@ To run your script in debugging mode,
     * Callstack:
     * Breakpoints:
 
-* Using the debug toolbar for inspecting code line by line
+* Using the debug toolbar for inspecting code line by line (mention that the debug toolbar is also draggable)
 * Using the `DEBUG CONSOLE` for evaluating variables and more experimentation
